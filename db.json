@@ -1,11 +1,11 @@
 {
-  "bg": "https://miro.medium.com/max/2400/1*jz-u2xRWZhN7Acy2W_Oyvw.jpeg",
-  "title": "Quiz da Vida",
-  "description": "Teste os seus conhecimentos sobre conteudos gerais",
+  "bg": "https://wallpapercave.com/wp/wp3314205.jpg",
+  "title": "Quiz Nintendo",
+  "description": "Teste os seus conhecimentos sobre jogos da nintendo",
   "questions": [
     {
       "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-      "title": "Como fazer um seletor por id via CSS?",
+      "title": "Quando foi lançado o primeiro console nintendo?",
       "description": "Essa é pra aquecer",
       "answer": 2,
       "alternatives": [
@@ -17,7 +17,7 @@
     },
     {
       "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-      "title": "Como fazer um background gradiente com css?",
+      "title": "Qual foi o jogo mais famoso da nintendo?",
       "description": "Faz tempo em haha",
       "answer": 0,
       "alternatives": [
@@ -31,9 +31,9 @@
   ],
   "theme": {
     "colors": {
-      "primary": "#0d47a1",
-      "secondary": "#29b6f6",
-      "mainBg": "#171B35",
+      "primary": "#f44336",
+      "secondary": "#3d5afe",
+      "mainBg": "#b2102f",
       "contrastText": "#FFFFFF",
       "wrong": "#FF5722",
       "success": "#4CAF50"
