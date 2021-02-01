@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Head from 'next/head';
-import { useRouter } from 'next/router';
+import { useRouter } from 'next/router'; // rota 
 
 import db from '../db.json';
 import Widget from '../src/components/Widget';
@@ -32,7 +32,7 @@ import Button from '../src/components/Button';
 // `;
 
 export default function Home() {
-  const router = useRouter();
+  const router = useRouter(); // hook tem que ficar fora 
   const [name, setName] = React.useState('');
 
   return (
@@ -49,7 +49,7 @@ export default function Home() {
           <Widget.Content>
             <p>{db.description}</p>
             <form onSubmit={function (infosDoEvento) {
-              infosDoEvento.preventDefault();
+              infosDoEvento.preventDefault(); //nao deixa recarregar
               router.push(`/quiz?name=${name}`);
               console.log('Fazendo uma submissão por meio do react');
             }}
