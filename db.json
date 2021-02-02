@@ -7,27 +7,30 @@
       "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
       "title": "Quando foi lançado o primeiro console nintendo?",
       "description": "Essa é pra aquecer",
-      "answer": 2,
+      "answer": 1,
       "alternatives": [
-        ".elemento",
-        "*elemento",
-        "#elemento",
-        "%elemento"
+        "1980",
+        "1985",
+        "1994",
+        "2001"
       ]
     },
     {
       "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
       "title": "Qual foi o jogo mais famoso da nintendo?",
-      "description": "Faz tempo em haha",
+      "description": "hummm qual sera em ",
       "answer": 0,
       "alternatives": [
-         "background: linear-gradient(#e66465, #9198e5);",
-         "background: gradient(#e66465, #9198e5);"
+         "Super Mario World",
+         "STAR FOX 64",
+         "FINAL FANTASY",
+         "DONKEY KONG COUNTRY"
       ]
     }
   ],
   "external": [
-    ""
+    "https://aluraquiz-css.omariosouto.vercel.app/",
+    "https://aluraquiz-devsoutinho.omariosouto.vercel.app/"
   ],
   "theme": {
     "colors": {
